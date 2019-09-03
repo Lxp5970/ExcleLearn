@@ -39,3 +39,7 @@ git remote add origin git@github.com:XXX.git
 git push -u origin master
 
 git mv -f oldfolder newfolder  重命名
+未提交的更改，是不能git pull的
+
+解决： 
+先执行git stash 
