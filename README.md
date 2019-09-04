@@ -72,3 +72,12 @@ pull&push
 6、git push origin master
 这几步将代码推至了远程
 最后再git pull origin master 
+
+git commit --amend
+修改注释
+
+git rebase --continue
+合并注释
+
+git log
+查看提交记录
