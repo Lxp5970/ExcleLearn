@@ -79,5 +79,9 @@ git commit --amend
 git rebase --continue
 合并注释
 
-git log
-查看提交记录
+git log  
+查看提交记录  
+
+查看当前没有add 的内容修改；git  diff    
+查看已经add 没有commit 的改动  git diff --cached  
+查看当前没有add和commit的改动   git diff HEAD   git status   
